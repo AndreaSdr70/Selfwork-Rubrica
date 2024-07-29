@@ -1,0 +1,44 @@
+/* Personalizzo il colore del body: sfondo e testo (Matrix) */
+body{
+    background-color: rgb(13, 2, 8);
+    color: rgb(0, 255, 65);
+}
+
+/* Personalizzo il bottone Mostra i contatti della Rubrica  */
+.btn-custom{
+    height:100px;
+    width: 200px;
+    color:rgb(0, 255, 65);
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 65);
+    display: block;
+    margin: auto;
+}
+
+/* Inverto, attraverso l'hover, i colori d sfondo e testo */
+.btn-custom:hover{
+background-color: rgb(0, 255, 65);
+color:rgb(13, 2, 8);
+}
+
+/* Interveniamo sui margini dei paragrfi */
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Personalizzazione della card che conterrà i contatti */
+.card-custom{
+    box-shadow: 2px 2px 5px rgb(0, 143, 17), -2px -2px 5px rgb(0, 143, 17);
+    height: 50px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center ;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Personalizzazione icona cestino */
+.icon{
+    cursor: pointer;
+}
